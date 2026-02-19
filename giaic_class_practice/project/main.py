@@ -3,7 +3,7 @@ from agents import Agent, Runner, OpenAIChatCompletionsModel, AsyncOpenAI, set_t
 from pydantic import BaseModel
 set_trace_disabled(disabled=True)
 
-gemini_api_key = "AIzaSyA_PnRqMxfif_RHz6ISdPhK27tJAnHVwWM"
+gemini_api_key = ""
 
 client = AsyncOpenAI(
     api_key=gemini_api_key,
